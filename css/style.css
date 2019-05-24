@@ -1,8 +1,30 @@
+body {
+    background-color: #fafafa;
+}
+
 #pi-display {
     text-align: center;
     word-wrap: break-word;
+    margin: 10%;
 }
 
 #pi {
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 400%;
+    margin: 40 0 0 0;
+}
+
+#reset-button {
+    /* Font */
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 5vh;
+    color: #424242;
+    font-weight: bold;
+
+    /* Rectangle */
+    width: auto;
+    height: auto;
+    padding: 3% 20%;
+    background-color:#B0D0D3;
+    border: 0;
 }
